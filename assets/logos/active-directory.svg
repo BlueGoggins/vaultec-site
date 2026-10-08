@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 28" role="img" aria-label="Active Directory">
+  <!-- Windows-style four squares -->
+  <rect x="1"  y="4"  width="9" height="9" rx="1.5" fill="#0078D4"/>
+  <rect x="12" y="4"  width="9" height="9" rx="1.5" fill="#0078D4"/>
+  <rect x="1"  y="15" width="9" height="9" rx="1.5" fill="#0078D4"/>
+  <rect x="12" y="15" width="9" height="9" rx="1.5" fill="#0078D4"/>
+  <text x="26" y="20" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0078D4">AD</text>
+</svg>

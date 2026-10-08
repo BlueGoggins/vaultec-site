@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 28" role="img" aria-label="AWX">
+  <!-- Tower/rocket icon -->
+  <rect x="1" y="4" width="18" height="20" rx="4" fill="#0b7a5c"/>
+  <rect x="5" y="8" width="4" height="8" rx="1" fill="white" opacity="0.9"/>
+  <rect x="11" y="8" width="4" height="5" rx="1" fill="white" opacity="0.6"/>
+  <rect x="5" y="18" width="10" height="2" rx="1" fill="white" opacity="0.5"/>
+  <text x="24" y="21" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#0b7a5c">AWX</text>
+</svg>

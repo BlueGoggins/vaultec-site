@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 28" role="img" aria-label="NetBox">
+  <rect x="0" y="4" width="20" height="20" rx="4" fill="#2f855a"/>
+  <text x="10" y="19" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="white">N</text>
+  <text x="26" y="22" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#2f855a">NetBox</text>
+</svg>

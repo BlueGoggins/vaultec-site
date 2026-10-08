@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 28" role="img" aria-label="Ubuntu">
+  <g transform="translate(13,14)">
+    <path d="M 0,-11 A 11,11 0 0,1 9.526,5.5" fill="none" stroke="#E95420" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 9.526,5.5 A 11,11 0 0,1 -9.526,5.5" fill="none" stroke="#E95420" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -9.526,5.5 A 11,11 0 0,1 0,-11" fill="none" stroke="#E95420" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="-11" r="3.5" fill="#E95420"/>
+    <circle cx="9.526" cy="5.5" r="3.5" fill="#E95420"/>
+    <circle cx="-9.526" cy="5.5" r="3.5" fill="#E95420"/>
+  </g>
+  <text x="30" y="20" font-family="Ubuntu,Arial,sans-serif" font-size="15" font-weight="500" fill="#E95420">Ubuntu</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Vaultec logo">
+  <defs>
+    <linearGradient id="vaultBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbe7ff"/>
+      <stop offset="100%" stop-color="#7aa2ff"/>
+    </linearGradient>
+    <linearGradient id="ringStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f5eff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="26" y="26" width="268" height="268" rx="72" fill="url(#vaultBg)"/>
+  <rect x="58" y="58" width="204" height="204" rx="52" fill="#0f172a" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+
+  <g>
+    <circle cx="160" cy="164" r="50" fill="none" stroke="url(#ringStroke)" stroke-width="10"/>
+    <circle cx="160" cy="164" r="11" fill="#f8fbff"/>
+
+    <path d="M160 116 L160 213" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M203.82 137.1 L116.18 190.9" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M203.82 190.9 L116.18 137.1" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M111 164 L209 164" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M132.57 126.02 L187.43 201.98" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <path d="M132.57 201.98 L187.43 126.02" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <path d="M146.87 118.82 L173.13 209.18" stroke="#dbe7ff" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+
+    <circle cx="160" cy="116" r="5.5" fill="#f8fbff"/>
+    <circle cx="203.82" cy="137.1" r="5.5" fill="#f8fbff"/>
+    <circle cx="203.82" cy="190.9" r="5.5" fill="#f8fbff"/>
+    <circle cx="160" cy="213" r="5.5" fill="#f8fbff"/>
+    <circle cx="116.18" cy="190.9" r="5.5" fill="#f8fbff"/>
+    <circle cx="116.18" cy="137.1" r="5.5" fill="#f8fbff"/>
+    <circle cx="111" cy="164" r="5.5" fill="#f8fbff"/>
+  </g>
+
+  <g stroke="#f8fbff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M96 86 L125 86 L145 135"/>
+    <path d="M224 86 L195 86 L175 135"/>
+  </g>
+
+  <g transform="translate(84 69)">
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#f8fbff" stroke="#0f172a" stroke-width="2"/>
+    <path d="M7 10 V7.5 C7 4.5 9.5 2 12 2 C14.5 2 17 4.5 17 7.5 V10" fill="none" stroke="#0f172a" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="7.5" y="10" width="9" height="8" rx="2" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <circle cx="12" cy="14" r="1.3" fill="#0f172a"/>
+  </g>
+
+  <g transform="translate(212 69)">
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#f8fbff" stroke="#0f172a" stroke-width="2"/>
+    <path d="M7 10 V7.5 C7 4.5 9.5 2 12 2 C14.5 2 17 4.5 17 7.5 V10" fill="none" stroke="#0f172a" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="7.5" y="10" width="9" height="8" rx="2" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <circle cx="12" cy="14" r="1.3" fill="#0f172a"/>
+  </g>
+</svg>

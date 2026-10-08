@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaultec — Infrastructure, Automation &amp; Platform Engineering</title>
+  <meta name="description" content="Vaultec is a platform, automation, and infrastructure company focused on making operations secure, flexible, and responsive." />
+  <meta name="theme-color" content="#0a0d12" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="canonical" href="https://vaultec.ch/" />
+  <meta property="og:site_name" content="Vaultec" />
+  <meta property="og:title" content="Vaultec — Infrastructure, answered in code" />
+  <meta property="og:description" content="Secure infrastructure, flexible operations, and automation-first delivery." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vaultec.ch/" />
+  <meta property="og:image" content="https://vaultec.ch/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preload" href="assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Vaultec","url":"https://vaultec.ch/",
+   "logo":"https://vaultec.ch/apple-touch-icon.png","email":"info@vaultec.ch",
+   "address":{"@type":"PostalAddress","addressCountry":"CH"}}
+  </script>
+  <script>(function(){try{var t=localStorage.getItem('vt-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}}());</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Vaultec — home">
+        <span class="brand-mono">VAULTEC</span>
+        <span class="brand-rule"></span>
+        <span class="brand-edition">ED. I</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about"><span class="nav-num">01</span><span class="nav-lab">Overview</span></a>
+        <a href="#mission"><span class="nav-num">02</span><span class="nav-lab">Mission</span></a>
+        <a href="#platform"><span class="nav-num">03</span><span class="nav-lab">Catalog</span></a>
+        <a href="#architecture"><span class="nav-num">04</span><span class="nav-lab">Schematic</span></a>
+        <a href="#projects"><span class="nav-num">05</span><span class="nav-lab">Projects</span></a>
+        <a href="#hardware"><span class="nav-num">06</span><span class="nav-lab">Hardware</span></a>
+        <a href="#automation"><span class="nav-num">07</span><span class="nav-lab">Automation</span></a>
+        <a href="#contact"><span class="nav-num">08</span><span class="nav-lab">Contact</span></a>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" aria-pressed="false" title="Switch theme">
+          <span class="theme-dot"></span><span class="theme-label">THEME</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <header class="hero">
+    <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="assets/video/hero-poster.jpg" aria-hidden="true">
+      <source src="assets/video/hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="viewfinder" aria-hidden="true">
+      <span class="vf vf-tl"></span><span class="vf vf-tr"></span>
+      <span class="vf vf-bl"></span><span class="vf vf-br"></span>
+    </div>
+
+    <div class="hero-shell">
+      <div class="hero-meta">
+        <span class="mono">VAULTEC&nbsp;/&nbsp;OPERATIONS&nbsp;MANUAL</span>
+        <span class="mono">EDITION&nbsp;I &mdash; <span id="todayDate">MMXXVI</span></span>
+      </div>
+
+      <section class="hero-content">
+        <p class="eyebrow mono">Enterprise Infrastructure Initiative</p>
+        <h1 class="display">
+          <span class="display-line">Practical infrastructure,</span>
+          <span class="display-line"><em>disciplined</em> by engineering&nbsp;&mdash;</span>
+          <span class="display-line">and answered <span class="brass">in code.</span></span>
+        </h1>
+        <p class="lead">
+          Enterprise infrastructure, designed and run as code. Every layer is repeatable,
+          observable, and version-controlled.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#platform"><span>Read the catalog</span><span class="button-arrow">&rarr;</span></a>
+          <a class="button button-ghost" href="#projects">Current projects</a>
+          <a class="button button-ghost" href="#contact">Make contact</a>
+        </div>
+      </section>
+
+      <section class="hero-specs" aria-label="Platform specifications">
+        <div class="spec">
+          <span class="spec-num"><span class="metric-value" data-count="15">0</span><span class="spec-plus">+</span></span>
+          <span class="spec-label mono">Core technologies</span>
+          <span class="spec-tag mono">A</span>
+        </div>
+        <div class="spec">
+          <span class="spec-num"><span class="metric-value" data-count="100">0</span><span class="spec-plus">+</span></span>
+          <span class="spec-label mono">GitLab projects</span>
+          <span class="spec-tag mono">B</span>
+        </div>
+        <div class="spec">
+          <span class="spec-num"><span class="metric-value" data-count="18">0</span><span class="spec-plus">+</span></span>
+          <span class="spec-label mono">Automation repos</span>
+          <span class="spec-tag mono">C</span>
+        </div>
+        <div class="spec">
+          <span class="spec-num"><span class="metric-value" data-count="25">0</span><span class="spec-plus">+</span></span>
+          <span class="spec-label mono">Virtual machines</span>
+          <span class="spec-tag mono">D</span>
+        </div>
+      </section>
+    </div>
+
+    <a class="hero-scroll mono" href="#about" aria-label="Scroll to content">
+      <span>CONTINUE</span><span class="hero-scroll-line"></span>
+    </a>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <section id="about" class="plate animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 01</span>
+        <span class="plate-kind mono">Overview</span>
+      </header>
+      <div class="plate-body two-col">
+        <h2 class="display section-display">
+          What is <em>Vaultec?</em>
+        </h2>
+        <div class="prose">
+          <p class="lead-prose"><span class="dropcap">V</span>aultec is a platform, automation, and infrastructure company focused on making operations secure, flexible, and responsive.</p>
+          <p>Built from hands-on engineering practice, it develops repeatable operational knowledge across infrastructure, orchestration, virtualisation, storage, and automation &mdash; standardising complex environments through practical architecture, disciplined security, and automation-first delivery using tools such as Ansible and Terraform.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mission" class="plate plate-mission animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 02</span>
+        <span class="plate-kind mono">Mission Statement</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display centered">
+          Mastering modern infrastructure &mdash;<br/>
+          <em>through discipline, automation,</em><br/>
+          and continuous learning.
+        </h2>
+        <div class="mission-grid">
+          <article class="mission-card">
+            <span class="mono">i.</span>
+            <p>We design, build, and operate enterprise-grade environments across Kubernetes, Linux, virtualisation, networking, and infrastructure automation &mdash; with scalability, reliability, security, and observability at every layer.</p>
+          </article>
+          <article class="mission-card">
+            <span class="mono">ii.</span>
+            <p>By integrating Ansible, Terraform, GitLab, AWX, NetBox, Zabbix, Grafana, and Prometheus, Vaultec develops repeatable, resilient operational systems aligned with modern infrastructure best practice.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="plate-band band-aside video-band animate-in" aria-label="Plate I — Automation-First">
+      <video class="band-bg" autoplay muted loop playsinline preload="none" poster="assets/video/band-1-poster.jpg" aria-hidden="true">
+        <source src="assets/video/band-1.mp4" type="video/mp4" />
+      </video>
+      <div class="band-overlay"></div>
+      <div class="band-inner">
+        <span class="plate-num mono">PLATE I</span>
+        <p class="eyebrow mono">Automation-First</p>
+        <h2 class="display band-display">
+          Every layer &mdash;<br/>designed, operated,<br/><em>and automated.</em>
+        </h2>
+        <p class="band-lead">From bare-metal hosts to Kubernetes workloads, every tier of Vaultec is provisioned, configured, and maintained through code &mdash; repeatable, documented, and version-controlled.</p>
+      </div>
+    </div>
+
+    <section id="platform" class="plate animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 03</span>
+        <span class="plate-kind mono">Platform Catalog</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display"><em>Core</em> Technologies</h2>
+        <p class="prose-narrow">A field index of the platforms, runtimes, and operational tooling that compose the Vaultec stack &mdash; grouped by domain.</p>
+
+        <div class="catalog-group">
+          <header class="catalog-head">
+            <span class="catalog-letter mono">A</span>
+            <span class="catalog-rule"></span>
+            <span class="catalog-name">Platform</span>
+          </header>
+          <div class="catalog-grid">
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 01</span><img loading="lazy" decoding="async" src="assets/logos/kubernetes.svg" alt="Kubernetes" /></header>
+              <h3>Kubernetes</h3>
+              <p>Three-node RKE2 cluster with Cilium networking and ingress-nginx. Workload deployment, platform services, and replicated persistent storage via Longhorn.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 02</span><img loading="lazy" decoding="async" src="assets/logos/vmware-wordmark.svg" alt="VMware" /></header>
+              <h3>VMware</h3>
+              <p>Virtual machine infrastructure, vCenter management, platform services, and system lifecycle management.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 03</span><img loading="lazy" decoding="async" src="assets/logos/linux.svg" alt="Linux" /></header>
+              <h3>Linux</h3>
+              <p>Rocky Linux, Ubuntu, and RHEL &mdash; server administration, configuration, hardening, and day-to-day platform operations.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 04</span><img loading="lazy" decoding="async" src="assets/logos/oracle.svg" alt="Oracle" /></header>
+              <h3>Oracle</h3>
+              <p>Database platform learning for administration, structure, backup validation, and operational confidence.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="catalog-group">
+          <header class="catalog-head">
+            <span class="catalog-letter mono">B</span>
+            <span class="catalog-rule"></span>
+            <span class="catalog-name">Infrastructure</span>
+          </header>
+          <div class="catalog-grid">
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 05</span><img loading="lazy" decoding="async" src="assets/logos/netapp-wordmark.svg" alt="NetApp" /></header>
+              <h3>NetApp</h3>
+              <p>ONTAP storage &mdash; NFS, iSCSI, snapshots, SnapMirror, and S3 object storage, automated through the ONTAP REST API and Ansible.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 06</span><img loading="lazy" decoding="async" src="assets/logos/cisco-wordmark.svg" alt="Cisco UCS" /></header>
+              <h3>Cisco UCS</h3>
+              <p>Compute platform focused on enterprise hardware, service profiles, and infrastructure operations.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 07</span><img loading="lazy" decoding="async" src="assets/logos/cisco-wordmark.svg" alt="Cisco Switching" /></header>
+              <h3>Cisco Switching</h3>
+              <p>Datacenter switching for network design, VLAN segmentation, enterprise fabric, and connectivity management.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 08</span><img loading="lazy" decoding="async" src="assets/logos/opnsense.svg" alt="OPNsense" /></header>
+              <h3>OPNsense</h3>
+              <p>Automated certificate issuance and renewal (ACME, DNS-01) for Vaultec services, alongside a pfSense perimeter firewall.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="catalog-group">
+          <header class="catalog-head">
+            <span class="catalog-letter mono">C</span>
+            <span class="catalog-rule"></span>
+            <span class="catalog-name">Automation</span>
+          </header>
+          <div class="catalog-grid">
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 09</span><img loading="lazy" decoding="async" src="assets/logos/awx.svg" alt="AWX" /></header>
+              <h3>AWX</h3>
+              <p>Ansible automation controller &mdash; job templates, workflow orchestration, credentials, and execution environments running on Kubernetes.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 10</span><img loading="lazy" decoding="async" src="assets/logos/gitlab-wordmark.svg" alt="GitLab" /></header>
+              <h3>GitLab</h3>
+              <p>Self-hosted source control, CI/CD pipelines, container registry, and structured project management across all Vaultec automation.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 11</span><img loading="lazy" decoding="async" src="assets/logos/terraform.svg" alt="Terraform" /></header>
+              <h3>Terraform</h3>
+              <p>Infrastructure as code for repeatable provisioning, environment consistency, and controlled platform changes.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 12</span><img loading="lazy" decoding="async" src="assets/logos/n8n.svg" alt="n8n" /></header>
+              <h3>n8n</h3>
+              <p>Workflow automation for connecting services, reducing manual steps, and experimenting with operational automations.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="catalog-group">
+          <header class="catalog-head">
+            <span class="catalog-letter mono">D</span>
+            <span class="catalog-rule"></span>
+            <span class="catalog-name">Operations</span>
+          </header>
+          <div class="catalog-grid">
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 13</span><img loading="lazy" decoding="async" src="assets/logos/netbox-wordmark.svg" alt="NetBox" /></header>
+              <h3>NetBox</h3>
+              <p>Infrastructure source of truth &mdash; IPAM, CMDB, device inventory, and documentation for the entire Vaultec platform.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 14</span><img loading="lazy" decoding="async" src="assets/logos/grafana.svg" alt="Grafana" /></header>
+              <h3>Monitoring</h3>
+              <p>Zabbix, Grafana, and Prometheus &mdash; metrics collection, dashboards, alerting, and full-stack observability across the platform.</p>
+            </article>
+            <article class="plate-card">
+              <header><span class="card-fig mono">FIG. 15</span><img loading="lazy" decoding="async" src="assets/logos/active-directory.svg" alt="Active Directory" /></header>
+              <h3>Active Directory</h3>
+              <p>Windows domain services, GPO management, certificate services, DNS, and enterprise identity for the Vaultec platform.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="plate plate-schematic animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 04</span>
+        <span class="plate-kind mono">Schematic — Technology Flow</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display"><em>Schematic.</em></h2>
+        <p class="prose-narrow">A vertical reading of the platform &mdash; from hardware to container runtime &mdash; with Ansible orchestrating across every tier and NetBox documenting the result.</p>
+
+        <div class="schematic" aria-label="Vaultec layered platform architecture">
+          <div class="sch-band sch-ansible">
+            <span class="sch-tag mono">Layer 00</span>
+            <img loading="lazy" decoding="async" src="assets/logos/ansible-wordmark.svg" alt="Ansible" />
+            <span class="sch-desc">Automation layer &mdash; orchestrates hardware, virtualisation, storage, Linux, and Kubernetes.</span>
+          </div>
+          <div class="sch-band sch-cicd">
+            <span class="sch-tag mono">Layer 01</span>
+            <img loading="lazy" decoding="async" src="assets/logos/gitlab-wordmark.svg" alt="GitLab" />
+            <span class="sch-desc">GitLab CI/CD &mdash; builds execution environments, runs linting, delivers to the container registry.</span>
+          </div>
+
+          <div class="sch-stack">
+            <div class="sch-row">
+              <span class="sch-row-label mono">Layer 02 &mdash; Hardware</span>
+              <div class="sch-row-nodes">
+                <div class="sch-node sch-node-text"><span class="mono">ESXi hosts &times;3</span></div>
+                <div class="sch-node sch-node-text"><span class="mono">10 GbE core</span></div>
+              </div>
+              <span class="sch-row-side"></span>
+            </div>
+            <div class="sch-arrow"></div>
+
+            <div class="sch-row">
+              <span class="sch-row-label mono">Layer 03 &mdash; Virtualisation</span>
+              <div class="sch-row-nodes">
+                <div class="sch-node"><img loading="lazy" decoding="async" src="assets/logos/vmware-wordmark.svg" alt="VMware" /></div>
+              </div>
+              <span class="sch-row-side"></span>
+            </div>
+            <div class="sch-arrow"></div>
+
+            <div class="sch-row">
+              <span class="sch-row-label mono">Layer 04 &mdash; Virtual Machines</span>
+              <div class="sch-row-nodes">
+                <div class="sch-node"><img loading="lazy" decoding="async" src="assets/logos/rocky-linux-wordmark.svg" alt="Rocky Linux" /></div>
+                <div class="sch-node"><img loading="lazy" decoding="async" src="assets/logos/ubuntu-wordmark.svg" alt="Ubuntu" /></div>
+                <div class="sch-node"><img loading="lazy" decoding="async" src="assets/logos/rhel-wordmark.svg" alt="Red Hat Enterprise Linux" /></div>
+              </div>
+              <span class="sch-row-side"></span>
+            </div>
+            <div class="sch-arrow"></div>
+
+            <div class="sch-row">
+              <span class="sch-row-label mono">Layer 05 &mdash; Container Platform</span>
+              <div class="sch-row-nodes sch-row-k8s">
+                <div class="sch-node"><img loading="lazy" decoding="async" src="assets/logos/kubernetes.svg" alt="Kubernetes" /><span class="mono">RKE2</span></div>
+                <span class="sch-h-arrow"></span>
+                <div class="sch-node sch-node-text"><span class="mono">Longhorn</span></div>
+              </div>
+              <span class="sch-row-side"></span>
+            </div>
+          </div>
+
+          <div class="sch-band sch-netbox">
+            <span class="sch-tag mono">Layer ∞</span>
+            <img loading="lazy" decoding="async" src="assets/logos/netbox-wordmark.svg" alt="NetBox" />
+            <span class="sch-desc">Source of truth &mdash; documents and tracks every layer of the platform.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="plate animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 05</span>
+        <span class="plate-kind mono">Projects</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display"><em>Selected</em> Projects</h2>
+        <ol class="proj-list">
+          <li class="proj">
+            <span class="proj-num mono">P-01</span>
+            <div class="proj-body">
+              <h3>GitLab Platform Build</h3>
+              <p>Designed and built a full enterprise-grade GitLab namespace &mdash; 100+ projects across Vaultec and Production hierarchies covering Platform, Automation, Operations, and Source-of-Truth domains.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-02</span>
+            <div class="proj-body">
+              <h3>AWX Execution Environment CI/CD</h3>
+              <p>Custom Ansible Execution Environment built and published via GitLab CI/CD. Docker-in-Docker build with automated tagging, verification, and push to the Vaultec container registry.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-03</span>
+            <div class="proj-body">
+              <h3>Ansible Automation Library</h3>
+              <p>18+ playbook repositories covering VMware, Kubernetes, Linux, NetApp, networking, patching, monitoring, and infrastructure provisioning &mdash; structured and committed to GitLab.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-04</span>
+            <div class="proj-body">
+              <h3>RKE2 Kubernetes Cluster</h3>
+              <p>Highly available three-node RKE2 cluster with Cilium, ingress-nginx behind HAProxy and keepalived, Longhorn storage, AWX, Keycloak single sign-on, and a full Prometheus and Grafana monitoring stack.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-05</span>
+            <div class="proj-body">
+              <h3>NetBox &harr; Snipe-IT Sync</h3>
+              <p>Infrastructure source-of-truth integration linking NetBox CMDB with Snipe-IT asset management. Investigating sync methods and Cisco EoX lifecycle data via the DevNet API.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-06</span>
+            <div class="proj-body">
+              <h3>OpenClaw AI Gateway</h3>
+              <p>Self-hosted AI orchestration platform running on the Vaultec network. Manages subordinate AI sessions, Discord integration, voice, file transfer, and multi-model routing.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-07</span>
+            <div class="proj-body">
+              <h3>Hermes</h3>
+              <p>Dedicated AI service node on the Vaultec network. Acts as a secondary AI gateway, providing model routing, API proxying, and session management alongside OpenClaw.</p>
+            </div>
+          </li>
+          <li class="proj">
+            <span class="proj-num mono">P-08</span>
+            <div class="proj-body">
+              <h3>Claude Managed Agents</h3>
+              <p>Structured agent workflows built on the Anthropic API using Claude as the reasoning layer. Covers infrastructure automation, documentation generation, and operational decision support across the Vaultec platform.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="hardware" class="plate animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 06</span>
+        <span class="plate-kind mono">Hardware</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display"><em>Hardware.</em></h2>
+        <div class="hw-grid">
+          <article class="hw-card">
+            <span class="hw-num mono">H-01</span>
+            <h3>Compute Platform</h3>
+            <p>Three-host VMware ESXi cluster under vCenter, with live vMotion on a dedicated network &mdash; the compute backbone for virtual machines, Kubernetes nodes, and platform services.</p>
+          </article>
+          <article class="hw-card">
+            <span class="hw-num mono">H-02</span>
+            <h3>Storage Platform</h3>
+            <p>NVMe datastores on every host, Longhorn replicated volumes for Kubernetes, and an ONTAP environment for storage automation and testing.</p>
+          </article>
+          <article class="hw-card">
+            <span class="hw-num mono">H-03</span>
+            <h3>Network Fabric</h3>
+            <p>10 GbE core switching with VLAN segmentation for management, vMotion, storage, and service networks &mdash; jumbo frames on the vMotion and storage paths.</p>
+          </article>
+          <article class="hw-card">
+            <span class="hw-num mono">H-04</span>
+            <h3>Perimeter &amp; Routing</h3>
+            <p>pfSense firewall for perimeter security and inter-VLAN routing, with OPNsense automating TLS certificates across every service.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="automation" class="plate plate-pair animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 07</span>
+        <span class="plate-kind mono">Automation Practice</span>
+      </header>
+      <div class="plate-body pair-grid">
+
+        <article class="pair-card">
+          <header class="pair-head">
+            <span class="pair-tag mono">Terraform</span>
+            <span class="pair-fig mono">FIG. T</span>
+          </header>
+          <h3 class="display pair-display">Infrastructure, <em>in code.</em></h3>
+          <p>Vaultec uses Terraform to define and manage infrastructure in a structured, repeatable way &mdash; cleaner provisioning workflows, improved consistency, and a stronger IaC practice across VMware, NetBox, OPNsense, and Cloudflare.</p>
+          <ul class="pair-list">
+            <li>Defining infrastructure in code</li>
+            <li>Improving provisioning consistency</li>
+            <li>Supporting repeatable environment builds</li>
+            <li>Learning infrastructure as code through practice</li>
+          </ul>
+        </article>
+
+        <article class="pair-card">
+          <header class="pair-head">
+            <span class="pair-tag mono">Ansible</span>
+            <span class="pair-fig mono">FIG. A</span>
+          </header>
+          <h3 class="display pair-display">Operations, <em>standardised.</em></h3>
+          <p>The Vaultec automation-first approach uses Ansible to standardise and automate core tasks across the platform. AWX provides a centralised control plane for job execution, credential management, and workflow orchestration across every infrastructure domain.</p>
+          <ul class="pair-list">
+            <li>Standardising setup, preventing configuration drift</li>
+            <li>Automating changes across VMware, Linux, K8s, storage</li>
+            <li>Repeatable workflows via AWX templates &amp; workflows</li>
+            <li>Custom Execution Environments built via GitLab CI/CD</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="plate-band video-band animate-in" aria-label="Plate II — Always Building">
+      <video class="band-bg" autoplay muted loop playsinline preload="none" poster="assets/video/band-2-poster.jpg" aria-hidden="true">
+        <source src="assets/video/band-2.mp4" type="video/mp4" />
+      </video>
+      <div class="band-overlay"></div>
+      <div class="band-inner">
+        <span class="plate-num mono">PLATE II</span>
+        <p class="eyebrow mono">Always Building</p>
+        <h2 class="display band-display">
+          A platform that<br/>is <em>never finished</em> &mdash;<br/>and keeps growing.
+        </h2>
+        <p class="band-lead">Vaultec is continuously designed, documented, and expanded &mdash; a hands-on platform for turning enterprise infrastructure knowledge into repeatable, operational practice.</p>
+      </div>
+    </div>
+
+    <section id="contact" class="plate plate-contact animate-in">
+      <header class="plate-head">
+        <span class="plate-num mono">§ 08</span>
+        <span class="plate-kind mono">Contact</span>
+      </header>
+      <div class="plate-body">
+        <h2 class="display section-display"><em>Make</em> contact.</h2>
+        <p class="prose-narrow">Vaultec is an evolving infrastructure and automation platform. For collaboration, deployment, or project discussion &mdash; the following channels are open.</p>
+
+        <div class="contact-grid">
+          <article class="contact-card contact-card-emails">
+            <header><span class="card-fig mono">FIG. 16</span><h3>Channels</h3></header>
+            <ul class="contact-emails">
+              <li><span class="mono">info<i>&rarr;</i></span> <a href="mailto:info@vaultec.ch">info@vaultec.ch</a></li>
+              <li><span class="mono">sales<i>&rarr;</i></span> <a href="mailto:sales@vaultec.ch">sales@vaultec.ch</a></li>
+            </ul>
+          </article>
+          <article class="contact-card">
+            <header><span class="card-fig mono">FIG. 17</span><h3>Focus</h3></header>
+            <p>Platform engineering, infrastructure learning, automation, and operations.</p>
+          </article>
+          <article class="contact-card">
+            <header><span class="card-fig mono">FIG. 18</span><h3>Status</h3></header>
+            <p>Actively building and documenting the Vaultec platform.</p>
+            <span class="status-dot" aria-hidden="true"></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <span class="mono footer-lab">Colophon</span>
+        <p>Vaultec &mdash; infrastructure, automation, platform engineering, documentation, and enterprise systems.</p>
+      </div>
+      <div class="footer-col">
+        <span class="mono footer-lab">Edition</span>
+        <p>Edition I &mdash; <span class="mono">MMXXVI</span>. Set in Fraunces, DM Sans, and JetBrains Mono.</p>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span class="mono">&copy; <span id="copyYear">2026</span> VAULTEC&nbsp;/&nbsp;CH</span>
+      <span class="mono"><a class="footer-link" href="privacy.html">Privacy</a> &nbsp;/&nbsp; END OF MANUAL &mdash; ∞</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

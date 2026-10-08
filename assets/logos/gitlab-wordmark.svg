@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 26">
+  <path d="M11 2L8 9L5 7L3 15L11 22L19 15L17 7L14 9Z" fill="#FC6D26"/>
+  <path d="M3 15L5 7L11 22Z" fill="#E24329"/>
+  <path d="M17 7L19 15L11 22Z" fill="#E24329"/>
+  <path d="M8 14L11 22L14 14Z" fill="#FCA326"/>
+  <text x="24" y="17" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#FC6D26">GitLab</text>
+</svg>

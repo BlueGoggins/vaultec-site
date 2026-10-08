@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 28" role="img" aria-label="Linux">
+  <!-- Tux-style penguin silhouette -->
+  <ellipse cx="11" cy="13" rx="9" ry="11" fill="#dd6b20"/>
+  <ellipse cx="11" cy="11" rx="5.5" ry="6.5" fill="white"/>
+  <circle cx="8.5" cy="9" r="1.5" fill="#1a1a1a"/>
+  <circle cx="13.5" cy="9" r="1.5" fill="#1a1a1a"/>
+  <ellipse cx="11" cy="12" rx="2.5" ry="1.5" fill="#f59e0b"/>
+  <text x="25" y="20" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#dd6b20">Linux</text>
+</svg>
